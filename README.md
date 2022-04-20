@@ -23,18 +23,18 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 ## Getting started
 
-- Run composer command:
+1. Run composer command:
 ```
 composer install
 ```
 
-1. Execute the command to install npm packages:
+2. Execute the command to install npm packages:
 
 ```
 npm install
 ```
 
-2. Configure `.env` file:
+3. Configure `.env` file:
 
 ```
 DB_CONNECTION=mysql
@@ -45,24 +45,24 @@ DB_USERNAME=root
 DB_PASSWORD=
 ```
 
-3. Run the command below to Migrate Database:
+4. Run the command below to Migrate Database:
 
 ```
 php artisan migrate
 ```
 
-4. Enter command to start the Vue SPA:
+5. Enter command to start the Vue SPA:
 ```
 npm run watch
 ```
 
-5. Execute the command to start Laravel:
+6. Execute the command to start Laravel:
 
 ```
 php artisan serve
 ```
 
-6. Application runs at:
+7. Application runs at:
 ```
 http://127.0.0.1:8000
 ```
